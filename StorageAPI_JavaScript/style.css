@@ -1,0 +1,117 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+header{
+    text-align: center;
+}
+
+.espaco {
+    height: 10vh;
+}
+
+h1{
+    margin: 0;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-family: 'Yeseva One', cursive;
+    font-size: 3em;
+    color: #34373d;
+}
+
+h2 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+header >p {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.area {
+    width:35vw; 
+    height: 10vh;
+    margin-top: 1vh;
+    font-family: 'Noto Sans', sans-serif;
+    border-color: white;
+    border-radius: 5px;
+}
+
+.botao {
+    border: none;
+    width: 17vw;
+    height: 8vh;
+    border-radius: 8px;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    background-color: #34373d;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.botao:hover{
+    background-color: #1f2024;
+}
+  
+#swatch{
+background: white;
+box-shadow: 1em 1em 1em rgba(0, 0, 0, .1);
+display: inline-flex;
+flex-direction: row;
+justify-content: center;
+align-content: center;
+border: white 3px;
+margin-right: 15vw;
+margin-left: 15vw;
+width: 45%;
+align-items: center;
+margin-bottom: 10vh;
+}
+
+#swatch .info{
+padding: 1em;
+}
+
+#swatch p{
+margin: 0;
+font-family: 'Noto Sans', sans-serif;
+font-style: italic;
+}
+
+input[type="color"] {
+appearance: none;
+-moz-appearance: none;
+-webkit-appearance: none;
+background: none;
+border: 0;
+cursor: pointer;
+height: 5em;
+padding: 1em;
+width: 8em;
+}
+
+*:focus{
+border-radius: 0;
+outline: none;
+}
+
+::-webkit-color-swatch-wrapper {
+padding: 0;
+}
+
+::-webkit-color-swatch{
+border: 0;
+border-radius: 0;
+}
+
+::-moz-color-swatch,
+::-moz-focus-inner{
+border: 0;
+}
+
+::-moz-focus-inner{
+padding: 0;
+}

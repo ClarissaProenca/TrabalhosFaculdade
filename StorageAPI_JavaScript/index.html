@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AP2 Talita</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;0,400;0,700;1,200;1,300&family=Yeseva+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bg">
+    <header>
+        <div class="espaco"></div>
+        <h1>Trabalho AP2 - Storage API</h1>
+        <h2>Padrões e Projeto de Software</h2>
+        <p>Clarissa Proença</p>
+        <textarea class="area" id="area" placeholder="Esse texto vai ficar"></textarea>
+        <br>
+        <textarea class="area"placeholder="Esse não"></textarea>
+        <br>
+        <button class="botao" onclick="localStorage.removeItem('area');area.value=''">Limpar texto</button>
+        <br>
+        <div id="swatch">
+            <input type="color" id="color" name="color" class="colorpallet">
+            <div class="info">
+              <p>Qual cor de fundo gostaria de usar? </p>
+            </div>
+        </div>
+    </header>
+    </div>
+    <script src="api.js"></script>
+</body>
+</html>
