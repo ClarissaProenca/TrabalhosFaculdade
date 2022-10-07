@@ -1,0 +1,63 @@
+body {
+    background-color: #161617;
+    width: 100%;
+}
+
+.topo {
+    margin-left: 0%!important;
+}
+
+.elenco {
+    margin-left: 0%;
+    background-color: #161617;
+}
+
+h1 {
+    color: white;
+    font-family: 'Katibeh', cursive;
+    font-weight: lighter;
+    background-color: #161617;
+    padding: 60px;
+  }
+
+.fundo {
+    background-color: #161617;
+}
+
+.cardes {
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #161617;
+    width: 100%;
+}
+
+.card {
+    background-color: #161617;
+}
+
+.carde {
+    transition: 0.5s;
+    padding: 20px;
+    background-color: #161617;
+    margin-right: 3%;
+    width: 88%;
+}
+
+.carde:hover {
+    box-shadow: 5px 10px 8px black;
+    width: 103%;
+    transition: 0.4s;
+}
+
+footer{
+    margin: 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+footer ul li {
+  list-style: none;
+}

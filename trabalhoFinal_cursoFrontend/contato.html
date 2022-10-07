@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="./css/estilo_contato.css">
+    <link rel="stylesheet" href="./css/nav-bar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Katibeh&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+<div class="imagemfundo">
+    <div class="container topo">
+        <div class="topnav menu" id="myTopnav">
+            <a href="index.html" class="active">BMT</a>
+            <a class="nav-link nav-link-ltr" href="turne.html">TURNÊS</a>
+            <a class="nav-link nav-link-ltr" href="elenco2.html">ELENCO</a>
+            <a class="nav-link nav-link-ltr" href="agenda.html">AGENDA</a>
+            <a class="nav-link nav-link-ltr" href="contato.html">CONTATO</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+    </div>
+    <div class="chamada">
+        <div class="formulario">
+        <div class="destaque">
+            <img src="./wireframes/1x/Prancheta 1.png" alt="desenho de um bouque de flores">
+            <h2>+44 7911 123456<br>bmt@gmail.com</h2>
+        </div>
+        <div class="informacoes">
+            <form action="" method="post" name="formreserva">
+                <div>
+                    <label for="txtnome"></label>
+                    <input type="text" name="Nome" id="txtnome" required placeholder="Nome"  onclick="myFunction()">
+                </div>
+                <div>
+                    <label for="email"></label>
+                    <input type="email" name="" id="email" required placeholder="Email"  onclick="myFunction()">
+                </div>
+                <div>
+                    <label for="telefone"></label>
+                    <input type="text" name="" id="telefone" required placeholder="Telefone"  onclick="myFunction()">
+                </div>
+                <div>
+                    <label for="data"></label>
+                    <input type="date" name="" id="data" required placeholder="Data"  onclick="myFunction()">
+                </div>
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
+        </div>
+    </div>
+</div>
+
+<script src="./js/funcoes.js"></script>
+</body>
+</html>

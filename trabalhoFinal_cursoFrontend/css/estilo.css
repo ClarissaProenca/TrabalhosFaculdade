@@ -1,0 +1,197 @@
+ * {
+    margin: 0%;
+
+ }
+
+.topo {
+  background-color: #161617;
+}
+
+.chamada {
+  background-image: url('../wireframes/imagens/banner1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.chamada h1 {
+  justify-content: left;
+  padding: 100px 50px 20px 60px;
+  width: 25%;
+  text-align: left;
+  font: normal normal normal 75px/62px Katibeh;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  }
+
+.destaque {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.destaque h2{
+    font: normal normal normal 50px/40px Katibeh;
+}
+
+.destaque img{
+    width: 25%;
+    padding: 20px;
+}
+
+.destaque p {
+  width: 70%;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.premiacoes {
+  background-color: #161617;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.informacoes {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+}
+
+.premiacoes h3 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 30px;
+  margin-left: 20%;
+  padding-top: 20px;
+}
+
+.premio {
+  background-color: #0f0f0f;
+  width: 90%;
+  border-radius: 20px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-self: center;
+  height: 200px;
+}
+
+.premio div {
+  margin-left: 60px;
+}
+
+.naosei img{
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .premio {
+    display: flex;
+    flex-direction: column;
+    height: 380px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    line-height: 60px;
+  }
+  .imagem1 {
+    width: 10%;
+  }
+  .imagem2 {
+    width: 20%;
+  }
+  .imagem3 {
+    width: 20%;
+  }
+  .ingresso h3 {
+    line-height: 80%;
+  }
+  .premiacoes h4 {
+    font-size: 16px;
+    line-height: 75%;
+  }
+  .ingresso {
+    height: 220px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+}
+
+.imagem1 {
+  width: 20%;
+  margin-right: 90px;
+}
+
+.imagem2 {
+  width: 40%;
+  margin-right: 30px;
+}
+
+.imagem3 {
+  width: 18%;
+  margin-right: 60px!important;
+}
+
+.socorro h4{
+  margin-right: 40%!important;
+}
+
+.premiacoes h4 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  font-size: 25px;
+  margin-left: 0px!important;
+  padding-top: 20px;
+  margin-right: 15%;
+}
+
+#ingresso {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.ingresso {
+  background-color: #F59233;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  line-height: 40px;
+}
+
+.ingresso div {
+  margin: 30px;
+}
+
+footer{
+  margin: 0;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  margin-top: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer ul li {
+list-style: none;
+}
